@@ -1,7 +1,5 @@
 locals {
-  app_name           = "planner"
-  amplify_branch     = "main"
-  amplify_repository = "https://github.com/papercortex/planner.git"
+  app_name = "planner"
   common_tags = {
     Project        = var.project_name
     AppName        = local.app_name
