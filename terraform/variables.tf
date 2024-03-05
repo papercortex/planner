@@ -1,4 +1,3 @@
-
 variable "aws_region" {
   type        = string
   description = "The AWS region where resources will be created."
@@ -36,23 +35,28 @@ variable "mongodbatlas_region" {
   default     = "US_EAST_1"
 }
 
-variable "mongodbatlas_org_id" {
+variable "mongodbatlas_project_id" {
   type        = string
-  description = "The ID of the MongoDB organization."
+  description = "The ID of the MongoDB Atlas project."
 }
 
-variable "mongodbatlas_username" {
+variable "mongodbatlas_planner_username" {
   type        = string
   description = "Username for the MongoDB Atlas database user."
 }
 
-variable "mongodbatlas_password" {
+variable "mongodbatlas_planner_password" {
   type        = string
   description = "Password for the MongoDB Atlas database user."
 }
 
-variable "mongodbatlas_user_role_name" {
+variable "mongodbatlas_planner_user_role_name" {
   type        = string
   description = "The name of the role for the MongoDB Atlas database user."
   default     = "readWrite"
+}
+
+variable "github_token" {
+  type        = string
+  description = "GitHub token for AWS Amplify to access the repository"
 }
