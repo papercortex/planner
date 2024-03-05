@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-papercortexplanner-dev-125402-authRole",
+      "UnauthRoleArn": "arn:aws:iam::654654394650:role/amplify-papercortexplanner-dev-125402-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::654654394650:role/amplify-papercortexplanner-dev-125402-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-papercortexplanner-dev-125402-deployment",
+      "UnauthRoleName": "amplify-papercortexplanner-dev-125402-unauthRole",
+      "StackName": "amplify-papercortexplanner-dev-125402",
+      "StackId": "arn:aws:cloudformation:us-east-1:654654394650:stack/amplify-papercortexplanner-dev-125402/b025b480-dade-11ee-be84-0affc92c6ee7",
+      "AmplifyAppId": "d3gi8xjma1wrth"
+    }
+  }
+}
